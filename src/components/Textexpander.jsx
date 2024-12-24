@@ -4,6 +4,14 @@ const textStyle = {
   maxWidth: "40rem",
 };
 
+const btnStyle = {
+  border: "none",
+  backgroundColor: "transparent",
+  marginLeft: "0.5rem",
+  color: "blue",
+  cursor: "pointer",
+};
+
 const rawText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet tenetur
         expedita perferendis at blanditiis, neque exercitationem quo quasi
         excepturi consequuntur non similique, provident, facere quibusdam
@@ -24,8 +32,10 @@ function Textexpander() {
   }
   return (
     <div style={textStyle}>
-      <p>{text}</p>
-      <button onClick={handleClick}>{show ? "show less " : "show more"}</button>
+      <span>{text}</span>
+      <button style={btnStyle} onClick={handleClick}>
+        {show ? "show less " : "show more"}
+      </button>
     </div>
   );
 }
