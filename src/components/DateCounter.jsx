@@ -93,9 +93,11 @@ function DateCounter() {
       <p className={styles.txt}>
         {prefix} : {formateDate(currentDate)}
       </p>
-      <button className={styles.btn} onClick={handleReset}>
-        Reset
-      </button>
+      <div>
+        <button className={styles.rbtn} onClick={handleReset}>
+          Reset
+        </button>
+      </div>
     </div>
   );
 }

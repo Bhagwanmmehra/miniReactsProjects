@@ -2,17 +2,46 @@
     text-align: center;
 }
 
-.btn,
+
+.btn {
+    height: 25px;
+    width: 25px;
+    margin: 5px;
+}
+
 .input {
     padding: 0.1 rem 0.4rem;
     cursor: pointer;
-    background-color: red;
+    background-color: aliceblue;
+    height: 20px;
+    margin: 10px;
+    outline: none;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+.btn {
+    height: 20px;
+    background-color: #077887;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.rbtn {
+    background-color: #4CAF50;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
 }
 
 .container {
-    width: 20rem;
+    width: 25rem;
+    height: 15rem;
     display: flex;
-    gap: 0.6rem;
+    gap: 1rem;
     flex-direction: column;
     align-items: center;
     justify-content: center;
