@@ -4,15 +4,16 @@ import Card from "./components/Card";
 import DateCounter from "./components/DateCounter";
 import StarRating from "./components/StarRating";
 import Accordian from "./components/Accordian";
+import AccordionV2 from "./components/AccordionV2";
 
 const accordionContent = [
   {
-    title: "About Hiper-Text-Markup-Language",
+    title: "About Hyper-Text-Markup-Language",
     details:
       "Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content.",
   },
   {
-    title: "About Casceding-Style-Sheet",
+    title: "About Cascading-Style-Sheet",
     details:
       "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects such as SVG, MathML or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.",
   },
@@ -48,6 +49,7 @@ function App() {
       <StarRating color="black" defaultRating={5} size={6} />
       <StarRating color="green" defaultRating={6} size={7} />
       <Accordian contents={accordionContent} />
+      <AccordionV2 contents={accordionContent} />
     </div>
   );
 }

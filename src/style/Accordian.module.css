@@ -7,9 +7,7 @@
     background-color: #eebefa;
 }
 
-.title:first-child>h3 {
-    border-radius: 0.5rem 0.5rem 0 0;
-}
+
 
 .container {
     display: flex;
