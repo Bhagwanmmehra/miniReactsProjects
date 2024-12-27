@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../style/Accordion.module.css";
+import styles from "../style/Accordian.module.css";
 import { HiMiniMinus, HiMiniPlus } from "react-icons/hi2";
 
 // 1. Create an accordion
